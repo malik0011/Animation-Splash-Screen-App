@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+  
+  }
+  @media print {
+    .container {
+      width: auto;
+    }
+  }
+  .content{
+    width: 50%;
+  }
+  /*----Navigation----*/
+  #nav-bar
+  {
+      position: sticky;
+      top:0;
+      z-index: 10;
+      width: auto;
+  
+  }
+  .navbar-brand img
+  {
+        height: 60px;
+        padding-left: 40px;
+  
+  
+  }
+  .navbar-nav li
+  {
+    padding: 0 10px;
+  }
+  .navbar-nav li a
+  {
+    float: right;
+    text-align: left;
+    font-size: 25px;
+    padding: 0 auto;
+  }
+  #nav-bar ul li a:hover
+  {
+    color: #007bff!important;
+  }
+  .navbar{
+    background: #fff;
+  }
+  .navbar-toggler
+  {
+    border: none!important;
+  }
+  .nav-link
+  {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  /*---------------services-----------------*/
+  #services{
+    margin-top: 0px;
+    background-image: linear-gradient(rgba(0, 40, 0, 0.5),rgba(25, 0, 0, 0.9)),url(css/sl3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #services h1{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+  
+  }
+  #services h1::after{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+  
+  }
+  .icon{
+      font-size: 35px;
+      margin: 20px auto;
+      padding: 5px auto;
+      height: 80px auto;
+      width: 80px;
+      border: 1px solid #fff;
+        border-radius: 35%;
+  }
+  #services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+  }
+  .services .col-md-4:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.75;
+  }
