@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Booking</string>
+
+    <string-array name="country">
+        <item>+91(india)</item>
+        <item>+92(bangaldesh)</item>
+        <item>+93(nepal)</item>
+        <item>+94(bhutan)</item>
+    </string-array>
+
+    <string-array name="adultsNumber">
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="childrenNumber">
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="roomtype">
+        <item>AC</item>
+        <item>non-AC</item>
+    </string-array>
+</resources>
